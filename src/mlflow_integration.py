@@ -24,7 +24,7 @@ class MLflowTracker:
         if self.dagshub_username and self.dagshub_token:
             try:
                 dagshub.init(repo_owner=self.dagshub_username, 
-                            repo_name='MLOps-Project',
+                            repo_name='MLOPS_PROJECT_OPEN_WEATHER',
                             mlflow=True)
                 print("DagsHub initialized successfully")
             except Exception as e:
