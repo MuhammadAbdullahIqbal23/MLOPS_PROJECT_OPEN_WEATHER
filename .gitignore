@@ -1,0 +1,35 @@
+# Environment
+.env
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.parquet
+
+# DVC
+.dvc/cache
+.dvc/tmp
+
+# MLflow
+mlruns/
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reports
+reports/*.html
